@@ -1,4 +1,4 @@
-from selenium import webdriver
+from selenium import webdriver, By
 import time
 
 class WhatsappBot:
@@ -18,14 +18,14 @@ class WhatsappBot:
         self.driver.get('https://www.web.whatappweb.com')
         time.sleep(30)
         for grupo in self.grupos:
-            grupo = self.driver.find_element(f"//span[@tittle='{grupo}'")
+            grupo = self.driver.find_element(By.XPATH,f"//span[@tittle='{grupo}'")
             time.sleep(3)
             grupo.click()
-            chat_box = self.driver.find_element('<div class="_2lMWa">')
+            chat_box = self.driver.find_element(By.TAGNAME,'_2lMWa')
             time.sleep(3)
             chat_box.click()
             chat_box.send_keys(self.mensagem)
-            botao_enviar = self.driver.find_element("//span[@data-icon='send']")
+            botao_enviar = self.driver.find_element(By.XPATH,"//span[@data-icon='send']")
             time.sleep(3)
             botao_enviar.click()
             time.sleep(3)
