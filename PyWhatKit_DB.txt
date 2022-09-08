@@ -1,0 +1,25 @@
+Date: 8/9/2022
+Time: 15:37
+Phone Number: +5511989631962
+Message: Mensagem Automatica
+--------------------
+Date: 8/9/2022
+Time: 15:42
+Phone Number: +55 11 98963-1962
+Message: Mensagem Automatica
+--------------------
+Date: 8/9/2022
+Time: 15:45
+Phone Number: +55 11 98963-1962
+Message: Mensagem Automatica
+--------------------
+Date: 8/9/2022
+Time: 15:47
+Phone Number: +55 11 98963-1962
+Message: Mensagem Automatica com pywhatkit e flask
+--------------------
+Date: 8/9/2022
+Time: 15:53
+Group ID: LPEbUDUXbXR6bBuyvIu45d
+Message: Mensagem Automatica com pywhatkit e flask
+--------------------
